@@ -44,5 +44,5 @@ app.get('/api/projetos', (req, res) => {
 });
 
 app.listen(PORTA, () => {
-    console.log('API no ar em http://localhost:' + PORTA);
+  console.log('API no ar em http://localhost:' + PORTA);
 });
