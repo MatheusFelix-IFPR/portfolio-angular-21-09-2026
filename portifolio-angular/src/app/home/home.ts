@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import { MatCard, MatCardModule } from '@angular/material/card';
+import { MatCardModule } from '@angular/material/card';
 
 @Component({
-  imports: [],
   selector: 'app-home',
-  imports: [MatCardModule]
-  styleUrl: './home.css',
+  imports: [MatCardModule],
   templateUrl: './home.html',
+    styleUrl: './home.css'
 })
 export class Home {}
